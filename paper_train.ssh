@@ -1,0 +1,8 @@
+echo "============================ Repetitive Experiment ================================"
+bash bash_train_15.ssh
+bash bash_train_25.ssh
+bash bash_train_35.ssh
+bash bash_train_45.ssh
+bash bash_train_55.ssh
+
+

@@ -1,0 +1,7 @@
+epochs=50
+seed=111
+python train15.py 5 resnet152 -eps $epochs -sd $seed
+python train15.py 4 resnet101 -eps $epochs -sd $seed
+python train15.py 3 resnet50 -eps $epochs -sd $seed
+python train15.py 8 vgg19 -eps $epochs -sd $seed
+python train15.py 10  alexnet -eps $epochs -sd $seed
